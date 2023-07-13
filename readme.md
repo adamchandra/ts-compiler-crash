@@ -1,0 +1,18 @@
+
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "noEmit": false,
+    "composite": true,
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": false,
+
+    "skipLibCheck": true,
+    "esModuleInterop": true,
