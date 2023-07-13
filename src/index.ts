@@ -1,7 +1,6 @@
 import { Argv } from 'yargs';
 
-// TODO this causes a compiler crash!!!!
-export const setOptx = (ya: Argv) => {
+export function crashes(ya: Argv) {
+  // this line causes a compiler crash:
   return ya.option;
-  // return '';
-};
+}

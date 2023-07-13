@@ -1,9 +1,7 @@
 {
   "name": "TS Compiler Crash",
-  "version": "1.0.0",
-  "private": false,
+  "version": "0.0.1",
   "description": "Demonstrate compiler crash",
-  "keywords": [],
   "scripts": {
     "clean": "rm -rf ./dist",
     "build": "tsc",

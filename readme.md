@@ -1,18 +1,12 @@
+## Demonstrate typescript compiler crash
 
-    "moduleResolution": "node",
-    "strict": true,
-    "strictNullChecks": true,
-    "allowJs": false,
-    "sourceMap": true,
-    "noEmitOnError": true,
-    "noEmit": false,
-    "composite": true,
-    "incremental": true,
-    "declaration": true,
-    "declarationMap": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "resolveJsonModule": false,
+Triggered by tsconfig.json setting:
 
-    "skipLibCheck": true,
-    "esModuleInterop": true,
+{ "compilerOptions": { "composite": true } }
+
+To reproduce, run
+> node_modules/.bin/tsc
+
+
+> node --version
+v18.16.1
